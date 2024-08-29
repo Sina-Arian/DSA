@@ -1,3 +1,7 @@
+'''2.Implement the Card class using the alternative representation ...'''
+
+
+
 class Card:
     """A simple playing card. A Card is characterized by two components.
     rank: an integer value in the range  1-13, inclusive (Ace-King)

@@ -3,6 +3,8 @@ from Stack import Stack
 from Queue import Queue
 from time import sleep
 
+'''6.A marble clock is a novelty timepiece that shows the current time via ...'''
+
 def marbleClock(n):
     reservoir = Queue()
     first = Stack()

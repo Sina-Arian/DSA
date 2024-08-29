@@ -1,5 +1,10 @@
 from TreeNode import TreeNode
 
+'''3. Write preorder and postorder traversal generators for the BST class. For example to generate a list ...
+4. Write a __copy__ method for the BST class
+5. Add a __len__ operation to the BST class. Calling len(myBST) should ...
+6. Implement an improved delete operation for BST'''
+
 class BST():
     def __init__(self):
         self.root = None

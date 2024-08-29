@@ -1,5 +1,7 @@
 from math import sqrt
 
+'''6.Add a function to the example in subsection 1.2.3 that returns ...'''
+
 def get_scores() -> list:
     scores = []
     n = input("Enter the number: <Enter to finish>")

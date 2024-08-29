@@ -3,6 +3,9 @@ sys.path.insert(0, r'C:\Users\Sina\Documents\DSA_Zelle\chapter7\BST.py')
 from BST import BST
 import unittest
 
+'''1.Write unit tests for the BTS class.
+2. Write and test a recursive version of the ...'''
+
 class BSTTest(unittest.TestCase):
     def testBST(self):
         myBST = BST()

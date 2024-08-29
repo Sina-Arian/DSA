@@ -1,6 +1,7 @@
 from time import time
 from chapter1_exercise1_algorithms import index_Lsearch, for_Lsearch, Bsearch
 
+'''1.Create a list of one million integers numbered 0 to ....'''
 
 lst = range(999999)
 

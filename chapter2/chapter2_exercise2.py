@@ -1,7 +1,9 @@
 import sys
 
-sys.path.insert(0, r'C:\Users\Sina\Documents\DSA_Zelle')
+sys.path.insert(0, r'C:\Users\Sina\Documents\DSA_Zelle') # use your own system address
 from graphics import *
+
+'''2. Implement the Card class ...'''
 
 class Card:
     """A simple playing card. A Card is characterized by two components.
@@ -41,7 +43,7 @@ class Card:
 
     def draw(self, win, center):
         filename = self.rankName() + '_of_'+ self.suitName()
-        self.img = Image(center,  'C:\\Users\\Sina\\Documents\\DSA_Zelle\\cards_pics\\'+ filename +'.png')
+        self.img = Image(center,  'C:\\Users\\Sina\\Documents\\DSA_Zelle\\cards_pics\\'+ filename +'.png') # use your own address
         self.img.draw(win)
         self.x = center.getX()
         self.y = center.getY()

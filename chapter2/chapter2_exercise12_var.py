@@ -1,3 +1,5 @@
+'''12.Write a class to represent a plynomial. The class should store ...s'''
+
 class Variable:
     def __init__(self, coeff:int, degree = 0):
         self.coeff = coeff

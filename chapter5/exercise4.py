@@ -1,5 +1,7 @@
 from Queue import Queue
 
+'''4.Suppose a queue is being used to stored numbers, and we want to see ...'''
+
 def queueInOrder(q):
     res = True
     for i in range(q.size()-1):

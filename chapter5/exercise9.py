@@ -1,6 +1,8 @@
 from Queue import Queue
 from time import sleep
 
+'''Write and Event-Eriven version of the checker simulation. Make sure it produces the same ...'''
+
 class Customer():
     def __init__(self, arrivalTime, items):
         self.arrivalTime = int(arrivalTime)

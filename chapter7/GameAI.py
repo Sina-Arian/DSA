@@ -1,6 +1,9 @@
 from TreeNode import TreeNode
 import pickle
 
+'''10. Write a program to play the animal guessing game. Here's a sample output showing how the game ...'''
+'''its a simple decision tree'''
+
 class Gaming():
     def __init__(self,  tree = TreeNode('green', TreeNode('dog'), TreeNode('horse')) ):
         self.tree = tree

@@ -1,3 +1,6 @@
+'''13. Write a maze solving problem. The  path through a maze can be cast as a recursive ...'''
+
+
 def pathToExit(TupleCoord, maze, prevCells= []):
     y, x = TupleCoord
     if y > len(maze.maze)-1 or x > len(maze.maze[0])-1:

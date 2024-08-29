@@ -1,6 +1,6 @@
 import sys
 
-sys.path.insert(0, r'C:\Users\Sina\Documents\DSA_Zelle\chapter2')
+sys.path.insert(0, r'C:\Users\Sina\Documents\DSA_Zelle\chapter2') # use your own address
 
 from chapter2_exercise10 import Rational
 import unittest

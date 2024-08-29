@@ -2,6 +2,9 @@ from time import time
 from chapter1_exercise1_algorithms import index_Lsearch, Bsearch
 import matplotlib.pyplot as plt
 
+'''4.Design your own experiment to compare the behavior ...'''
+
+
 Y1 = []
 Y2 = []
 X = list(range(1000))

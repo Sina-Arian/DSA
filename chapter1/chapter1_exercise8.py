@@ -1,32 +1,33 @@
 from random import randint
 
+'''8.Design and implement a quiz program. The program should ...'''
 
 class Quiz:
     def __init__(self):
         self.correct = 0
         self.incorrect = 0
         self.answer_question = []
-        self.stat_list = []
+        self.state_list = []
         self.data = {}
 
         with open('chapter1_stats.txt', 'r') as inFile:
             list_file = inFile.readlines()
             for item in list_file:
-                stat, capital = item.split(':')
+                state, capital = item.split(':')
                 capital = capital.split('\n')
-                self.data[stat] = capital[0]
-                self.stat_list.append(stat)
+                self.data[state] = capital[0]
+                self.state_list.append(state)
 
 
     def start(self):
         n = randint(0, 51)
-        a = input('Enter the capital of {0}: '.format( self.stat_list[n] ))
+        a = input('Enter the capital of {0}: '.format( self.state_list[n] ))
         while a != '':
             a = a.lower()
-            t = (a, self.stat_list[n])
+            t = (a, self.state_list[n])
             self.answer_question.append(t)
             n = randint(0, 50)
-            a = input('Enter the capital of {0}: '.format( self.stat_list[n] ))
+            a = input('Enter the capital of {0}: '.format( self.state_list[n] ))
 
 
     def evaluation(self):

@@ -1,3 +1,6 @@
+'''Write a recursive function that implement tha same algorithm as the looping version of the nth Fibnonacci ...'''
+
+
 def fib(a,b,n):
     if n == 0:
         return b

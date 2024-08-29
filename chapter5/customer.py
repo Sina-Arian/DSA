@@ -1,5 +1,7 @@
 from random import random, randint
 
+'''use it to generates customers for exercises 9 and 10'''
+
 def customerGenerator(filename, maxItem, totalTicks, arrivalInterval):
     out = open(filename, 'w')
     for i in range(totalTicks):

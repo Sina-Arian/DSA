@@ -1,3 +1,8 @@
+'''1.Extend LList class by implementing ...
+2.Add a lastt instance variable to the LList class along lines suggested in chapter ...
+7.Modify the linked implementation of the python list API...'''
+
+
 class ListNode():
     def __init__(self, data = None, link = None, before = None):
         self.data = data
@@ -53,7 +58,7 @@ class LList():
         self._delete(position)
 
     def _delete(self, position):
-        if position == 0: #chonke oon paeen position -1 dari bekhatere hamin bayad jodagane baraye 0 ro tarif koni
+        if position == 0: # REMEMBER you have index = -1, so you should add a condition for index = 0
             item = self.head.data
             self.head = self.head.link
             self.head.before = None
@@ -61,7 +66,7 @@ class LList():
         elif position == self.size - 1:
             prev_node = self.last.before
             item = prev_node.link.data
-            prev_node.link = prev_node.link.link #bayad None bashe
+            prev_node.link = prev_node.link.link #should be None
             self.last = prev_node
 
         else:

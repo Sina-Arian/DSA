@@ -4,6 +4,8 @@ from chapter2_Card import Card
 
 from random import randrange, randint, shuffle
 
+'''8.Implement an extended Deck class with operations suitable for '''
+
 class Deck():
     def __init__(self):
         cards = []

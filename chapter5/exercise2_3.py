@@ -1,5 +1,8 @@
 from Stack import Stack
 
+'''2.Implement the inflix-to-postfix algorithm ...
+3.Write a function that accepts a valid ...'''
+
 def reverse_polish(infix): #infix is a list
     stack =Stack()
     postfix =[]

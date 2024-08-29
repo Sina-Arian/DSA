@@ -5,6 +5,8 @@ from chapter2_exercise3 import Deck
 from graphics import *
 from time import sleep
 
+'''5.Using the Deck class from exercise 3, write a program that plays a simple solitaire game ... '''
+
 def solitare(myDeck:object, pile_num:int, GUI=True, delay=1):
     if GUI == True:
         win = GraphWin('Solitare', 1250, 1000)

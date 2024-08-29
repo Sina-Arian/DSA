@@ -1,6 +1,8 @@
 from BST import BST
 from KeyPair import KeyPair
 
+'''7.Implement and test an ordered multi_set class based on a BST. A multi_set is a set that allows multiple ...'''
+
 class MultiSet():
     def __init__(self):
         self.items = BST()

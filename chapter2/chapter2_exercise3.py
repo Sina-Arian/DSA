@@ -1,6 +1,8 @@
 from random import randint, randrange
 from chapter2_exercise2 import Card
 
+'''3.Write a simple implementation of a card deck tto deal cards out randomly ...'''
+
 class Deck:
     def __init__(self):
         self.card_list =[]

@@ -4,6 +4,8 @@ from LList_cursor import LinkedCursorList
 
 import unittest
 
+'''4.Finish the implementation of the LListCursor ... '''
+
 class LinkedCursorListTest(unittest.TestCase):
 
     def testLinkedCursorList(self):

@@ -6,6 +6,8 @@ from random import randrange
 from Deck_Hand import Deck
 from time import time
 
+'''1.Modify the Deck class to keep track of the current size of the deck using ...'''
+
 class Deck1():
     _size = 52
 

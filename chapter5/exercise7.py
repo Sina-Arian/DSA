@@ -3,6 +3,7 @@ from Stack import Stack
 from Queue import Queue
 from time import sleep
 
+'''7.The previous exercise involves simulating the marble clock until the reservir ...'''
 
 class Permutation():
     def __init__(self, item, ind):

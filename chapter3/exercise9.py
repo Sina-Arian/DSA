@@ -1,6 +1,10 @@
 from exercise8 import Deck
 from time import sleep
 
+'''9. Write a program to play the following simple solitaire game. N cards are dealt face up onto the table ...'''
+
+
+
 class EmptyDeck(Deck):
 
     def __init__(self):

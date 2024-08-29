@@ -2,6 +2,8 @@ from Queue import Queue
 from time import sleep
 from random import random
 
+'''10.Suppose our retail store is going to upgrade ...'''
+
 class Customer():
     def __init__(self, arrivalTime, items):
         self.arrivalTime = int(arrivalTime)

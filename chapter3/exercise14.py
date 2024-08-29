@@ -1,5 +1,10 @@
 import random
 
+'''14.Extend the Markov gibberish generator to allow the size of the prefix to be determined ...'''
+
+''' its a stupid system for generating names, i used well-known vedic names as a 
+model, you can change the list of names in trainModel() function. You can use Elvish names to generate names for D&D characters'''
+
 class Markov():
     def __init__(self, prefix: int):
         self.words = {}

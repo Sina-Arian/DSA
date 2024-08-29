@@ -1,6 +1,7 @@
 from turtle import *
 from time import sleep
 
+'''10.Some interesting geometric curves can be described recursively. One famousexample is the Koch curve. it is a curve ...'''
 
 def Koch(Turtle, lenght, degree):
     if degree == 0:

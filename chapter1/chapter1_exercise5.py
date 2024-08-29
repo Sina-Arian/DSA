@@ -1,5 +1,8 @@
 from math import sqrt
 
+'''5.Compelete the implementation of the simple statistics ...'''
+
+
 def get_scores() -> list:
     scores = []
     n = input("Enter the number: <Enter to finish>")

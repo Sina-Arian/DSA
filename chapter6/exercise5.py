@@ -1,3 +1,6 @@
+'''Write a recursive function that detects wheter a string is palindrome. The basic idea is to check that the first and last ...'''
+
+
 def palindrome(string):
     print(string)
     if string == '' or len(string) == 1:

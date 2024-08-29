@@ -1,3 +1,6 @@
+'''6.Write and test a recursive function max to find the largest ...'''
+
+
 def max(lst):
     if len(lst) == 2:
         if lst[0] > lst[1]:

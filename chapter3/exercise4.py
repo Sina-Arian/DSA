@@ -1,6 +1,7 @@
 from Deck_Hand import Deck
 from random import randint
 
+'''4.Instead of shuffling a deck of cards, ...'''
 
 class NewDeck(Deck):
     def randomCard(self):

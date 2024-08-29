@@ -7,6 +7,8 @@ from graphics import *
 from chapter2_exercise3 import Deck
 from time import sleep
 
+'''4.Using the Deck class from the previous exercise...'''
+
 def game(myDeck:object):
         win = GraphWin('Blackjack', 800, 600)
         win.setCoords(0, 0, 10, 10)

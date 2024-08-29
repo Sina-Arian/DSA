@@ -1,6 +1,8 @@
 from Queue import Queue
 from time import sleep
 
+'''8.The number of times a permutation must be applied before it restores a sequence ...'''
+
 class Customer():
     def __init__(self, arrivalTime, items):
         self.arrivalTime = int(arrivalTime)

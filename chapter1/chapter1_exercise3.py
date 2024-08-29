@@ -1,3 +1,6 @@
+'''3.The selection sort algorithm sorts a list by finding ...'''
+
+
 def min(list):
     out = list[0]
     for i in list:

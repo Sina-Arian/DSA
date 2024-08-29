@@ -1,5 +1,7 @@
 from math import sqrt
 
+'''7.Whenever the average value of a set of data is needed ....'''
+
 def get_scores() -> list:
     scores = []
     n = input("Enter the number: <Enter to finish>")

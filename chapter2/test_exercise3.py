@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-sys.path.insert(0, r'C:\Users\Sina\Documents\DSA_Zelle\chapter2')
+sys.path.insert(0, r'C:\Users\Sina\Documents\DSA_Zelle\chapter2') # use your own address
 from chapter2_exercise3 import *
 
 class DeckTest(unittest.TestCase):

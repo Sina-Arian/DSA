@@ -1,3 +1,6 @@
+'''15.Write your own dictionary class that implements the various operations ...'''
+
+
 class Dict():
     def __init__(self, key, value):
         self.entry = ((key,value),)

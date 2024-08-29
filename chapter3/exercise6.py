@@ -1,3 +1,5 @@
+'''6.Modify the sort method in the Hand class so ...'''
+
 class Hand():
     def __init__(self, label):
         self.label = label

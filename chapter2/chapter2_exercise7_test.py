@@ -1,5 +1,7 @@
 from chapter2_exercise7 import Dataset1, Dataset2
 
+'''7.Implement the DataSet class using each of the two concrete ...'''
+
 def main():
     print('This is a program to compute the min, max, mean and')
     print('standard deviation doe a set of numbers. \n')

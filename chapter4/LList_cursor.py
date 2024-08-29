@@ -1,5 +1,8 @@
 from LList import LList, ListNode
 
+'''4.Finish the implementation of the LListCursor ...
+6.Add the capability of the previous exercises ...'''
+
 class LinkedCursorList(LList):
 
     def getCurser(self):

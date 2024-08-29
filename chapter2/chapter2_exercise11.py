@@ -1,5 +1,7 @@
 from chapter2_exercise10 import Rational
 
+'''11. Use your Rational class to write a program that investigate Egyptian fractions ...'''
+
 def egyption():
     rational_in = input("Enter the number: ")
     r_list = rational_in.split('/')

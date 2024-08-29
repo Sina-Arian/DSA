@@ -25,7 +25,7 @@ while drunk['wall_countdown'] >= 0:
 
     roll = random.randint(1, 4)
 
-    if roll == 1 and x > drunk['padding']: #manzoor az padding oon marze atraf ast
+    if roll == 1 and x > drunk['padding']: 
         drunk['x'] -= 1
     
     elif roll == 2 and x < width - 1 - drunk['padding']:

@@ -1,6 +1,8 @@
 from Stack import Stack
 from Queue import Queue
 
+'''1.Write a Stack and a Queue class with unit test code for each ...'''
+
 def palindromeTester(inWord):
     stack = Stack()
     queue = Queue()

@@ -1,5 +1,7 @@
 from time import time
 
+'''9.In mathematics Cnk denotes the number of different ways that k things can be selected from among n different choices. For example ...'''
+
 def iter_combinator(n, k):
     nominator = fac(n)
     denominator = fac(k) * fac(n-k)

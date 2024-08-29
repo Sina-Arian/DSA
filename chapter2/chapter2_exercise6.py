@@ -1,6 +1,8 @@
 from chapter2_exercise5 import solitare
 from chapter2_exercise3 import Deck
 
+'''6.Modify the previous exercise so that is calculates ...'''
+
 def main():
     pile_number = int(input('Enter the number of piles: '))
     win = 0

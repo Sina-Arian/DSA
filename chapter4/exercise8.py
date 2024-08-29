@@ -2,6 +2,8 @@ from copy import deepcopy, copy
 from LList import LList
 from LList_cursor import *
 
+'''8.The Sieve of Eratosthenes is famouse algorithm for ...'''
+
 def sieveOfEratosthenes(number_list) -> list:
 
     primeCursor = number_list.getCurser()

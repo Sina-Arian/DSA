@@ -1,3 +1,5 @@
+'''7.Another way to put a hand in order is to place each card into'''
+
 class Hand():
     def __init__(self, label):
         self.label = label
